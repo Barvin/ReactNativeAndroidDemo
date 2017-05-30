@@ -67,10 +67,6 @@ class HelloWorld extends React.Component {
 
         <Text>Props received from native: {this.props.defaultMsg}</Text>
 
-        <TouchableHighlight onPress={addCourse} activeOpacity={0.2}>
-            <Text style={[styles.buttonText, {color: 'white'}]}>ADD Course</Text>
-        </TouchableHighlight>
-
 			</View>
     )
   }
