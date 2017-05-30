@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personalprofile"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Personal Profile" />
+        <item
+            android:id="@+id/nav_userprofile"
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Skills" />
+        <item
+            android:id="@+id/nav_seeFeedback"
+            android:icon="@drawable/ic_thumbs_up_down_black_24dp"
+            android:title="Toast Demo" />
+        <item
+            android:id="@+id/nav_signup"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Calendar Test" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
